@@ -45,7 +45,6 @@ button {
 .header__flex {
   display: flex;
   align-items: center;
-  background-color: #ffffff;
 }
 
 .menu {
