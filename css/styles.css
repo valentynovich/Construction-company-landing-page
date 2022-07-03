@@ -1,6 +1,5 @@
 body {
   font-family: "Gilroy", sans-serif;
-  background-color: #ffffff;
 }
 
 p,
@@ -46,6 +45,7 @@ button {
 .header__flex {
   display: flex;
   align-items: center;
+  background-color: #ffffff;
 }
 
 .menu {
