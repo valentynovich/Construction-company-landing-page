@@ -1,5 +1,6 @@
 body {
   font-family: "Gilroy", sans-serif;
+  background-color: #ffffff;
 }
 
 p,
@@ -607,6 +608,15 @@ button {
 } */
 /* slider */
 
+/*--------------start form------------ */
+
+.form__container {
+  width: 1920px;
+  padding-left: 275px;
+  padding-right: 275px;
+  margin: 0 auto;
+}
+
 .form {
   background-image: linear-gradient(
       0deg,
@@ -622,8 +632,8 @@ button {
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
-  margin-left: auto;
-  margin-right: auto;
+  /* margin-left: auto;
+  margin-right: auto; */
   /* display: block; */
 }
 
@@ -637,7 +647,7 @@ button {
   margin-bottom: 20px;
 }
 
-.form__container {
+.form__content {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -727,6 +737,8 @@ button {
   transform: translateY(-50%);
   z-index: 5;
 }
+
+/*--------------end form------------ */
 
 /* --------------partners-------- */
 
